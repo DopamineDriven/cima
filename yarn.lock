@@ -5757,10 +5757,10 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-tailwindcss@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.5.0.tgz#c36bd1574db70499b1f582a305a945defb704df0"
-  integrity sha512-c2l1rXfePM7PR6SPwDYDrKoejhl0LAbiBaX51EVz3nadk3oJ4FpbHGik9Nsb9GAafZRfZ0bIXlFsVjVIubrqiQ==
+tailwindcss@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.5.2.tgz#3e99526e55c600b9df9152b0db12449ed9770855"
+  integrity sha512-OR7wxFetvHruLkQABeQac7jFdTOs+MwXzsuccOuMItva9GBANPd2VX8NgJ3pdvuGSL23c5cVId9jsvuKgulBiQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"

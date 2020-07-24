@@ -5,6 +5,12 @@
   "repository": "https://github.com/DopamineDriven/cima.git",
   "author": "Andrew Ross <andrew.simpson.ross@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "date-fns": "^2.15.0",
@@ -18,7 +24,7 @@
     "@types/react-dom": "^16.9.8",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "1.5.0",
+    "tailwindcss": "^1.5.2",
     "typescript": "^3.9.7"
   }
 }
