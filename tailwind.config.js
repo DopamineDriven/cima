@@ -1,5 +1,5 @@
 module.exports = {
-	purge: [],
+	purge: ["./components/**/*.tsx", "./pages/**/*.tsx"],
 	target: 'relaxed',
 	prefix: '',
 	important: false,
@@ -14,10 +14,13 @@ module.exports = {
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
-
-			black: '#000',
-			white: '#fff',
-
+			black: '#000000',
+			white: '#ffffff',
+			success: '#0070f3',
+			cyan: '#79FFE1',
+			blizzardBlue: '#b3ddf2',
+			chicagoRed: '#ff0000',
+			wcdPink: '#eb57a3',
 			gray: {
 				100: '#f7fafc',
 				200: '#edf2f7',
